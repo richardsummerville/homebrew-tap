@@ -19,6 +19,6 @@ class Peek < Formula
   end
 
   test do
-    assert_match "0.4.2", shell_output("#{bin}/peek --version")
+    assert_match "0.4.3", shell_output("#{bin}/peek --version")
   end
 end
