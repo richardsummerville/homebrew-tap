@@ -2,8 +2,8 @@ class Peek < Formula
   desc "macOS screen capture CLI + MCP server for Claude"
   homepage "https://github.com/richardsummerville/peek-mcp"
   url "https://github.com/richardsummerville/peek-mcp.git",
-      tag:      "v0.4.1",
-      revision: "a63eba97cbd1d8b6de80c1babfebcf5b91e81fe9"
+      tag:      "v0.4.2",
+      revision: "71fef49d78961fa604cdb030d9364c5a892dd47e"
   license "MIT"
   head "https://github.com/richardsummerville/peek-mcp.git", branch: "main"
 
@@ -19,6 +19,6 @@ class Peek < Formula
   end
 
   test do
-    assert_match "0.4.1", shell_output("#{bin}/peek --version")
+    assert_match "0.4.2", shell_output("#{bin}/peek --version")
   end
 end
