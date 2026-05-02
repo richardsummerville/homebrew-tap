@@ -3,7 +3,7 @@ class Peek < Formula
   homepage "https://github.com/richardsummerville/peek-mcp"
   url "https://github.com/richardsummerville/peek-mcp.git",
       tag:      "v0.4.1",
-      revision: "6e64d4fbd584f8f1811db915318ebef0541e85ba"
+      revision: "a63eba97cbd1d8b6de80c1babfebcf5b91e81fe9"
   license "MIT"
   head "https://github.com/richardsummerville/peek-mcp.git", branch: "main"
 
