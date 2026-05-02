@@ -2,8 +2,8 @@ class Peek < Formula
   desc "macOS screen capture CLI + MCP server for Claude"
   homepage "https://github.com/richardsummerville/peek-mcp"
   url "https://github.com/richardsummerville/peek-mcp.git",
-      tag:      "v0.4.2",
-      revision: "71fef49d78961fa604cdb030d9364c5a892dd47e"
+      tag:      "v0.4.3",
+      revision: "d5f824654e3258066d15334358294446391d7a66"
   license "MIT"
   head "https://github.com/richardsummerville/peek-mcp.git", branch: "main"
 
